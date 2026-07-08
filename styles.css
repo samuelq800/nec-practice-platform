@@ -891,7 +891,7 @@ a:hover {
   flex: 1;
   min-height: 0;
   display: grid;
-  grid-template-columns: var(--list-width) 8px minmax(360px, 1fr) 8px var(--solution-width);
+  grid-template-columns: var(--list-width) minmax(420px, 1fr) var(--solution-width);
   gap: 8px;
   align-items: stretch;
 }
@@ -1039,8 +1039,9 @@ body.is-resizing {
 
 .problem-pane {
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  min-width: 0;
+  display: grid;
+  grid-template-rows: auto minmax(120px, 1fr) auto auto;
   overflow: hidden;
   background: #fff;
 }
@@ -1084,7 +1085,6 @@ body.is-resizing {
 }
 
 .statement {
-  flex: 1;
   min-height: 0;
   overflow: auto;
   padding: 20px;
@@ -1113,9 +1113,8 @@ body.is-resizing {
 }
 
 .choice-panel {
-  flex: 0 0 auto;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   padding: 14px 16px;
   border-top: 1px solid var(--line);
@@ -1167,7 +1166,6 @@ body.is-resizing {
 }
 
 .answer-actions {
-  flex: 0 0 auto;
   min-height: 62px;
   display: flex;
   flex-wrap: wrap;
@@ -1474,11 +1472,7 @@ body.is-resizing {
   }
 
   .workspace {
-    grid-template-columns: minmax(170px, var(--list-width)) 8px minmax(0, 1fr);
-  }
-
-  .workspace-resizer[data-resize="right"] {
-    display: none;
+    grid-template-columns: minmax(170px, var(--list-width)) minmax(0, 1fr);
   }
 
   .solution-pane {

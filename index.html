@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>NEC 题目练习 | NEC Practice</title>
+    <link rel="icon" href="./school-logo.jpg" />
     <link rel="stylesheet" href="./styles.css?v=20260708-nec1" />
   </head>
   <body>
@@ -19,6 +20,10 @@
               </div>
             </div>
             <p id="entryMeta">加载中 / Loading...</p>
+            <div class="user-status">
+              <span id="userStatus">未登录 / Not signed in</span>
+              <button id="logoutButton" type="button" class="is-hidden">退出 / Logout</button>
+            </div>
             <div class="entry-stats" aria-label="平台数据 / Platform data">
               <div><strong>9</strong><span>个主题 / topics</span></div>
               <div><strong>106</strong><span>道例题 / problems</span></div>
@@ -69,6 +74,9 @@
           </div>
         </div>
         <div class="top-actions">
+          <div class="user-status">
+            <span id="topUserStatus">未登录 / Not signed in</span>
+          </div>
           <div class="score-strip" aria-label="练习统计 / Practice stats">
             <div><span id="statTotal">0</span><small>题目 / Total</small></div>
             <div><span id="statAnswered">0</span><small>已答 / Answered</small></div>
@@ -232,6 +240,7 @@
       </section>
     </main>
 
-    <script src="./app.js?v=20260708-nec2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./app.js?v=20260708-shared-auth1"></script>
   </body>
 </html>

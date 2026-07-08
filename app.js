@@ -3,6 +3,11 @@ window.NEC_QUESTION_BANK = window.NEC_QUESTION_BANK || {"generated_at": "2026-07
 const DATA_URL = "./nec_question_bank.json";
 const STORAGE_KEY = "nec-practice-progress-v1";
 const MARKS_KEY = "nec-practice-marks-v1";
+const SUPABASE_URL = "https://bwlcnaruyjazaxyiiumd.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_bGhQso88Ml6VEpX4reo8QQ_VjwL7yND";
+
+// Static GitHub Pages frontend: use only the Supabase publishable/anon key.
+// Never add a service_role key, database password, JWT secret, or private key here.
 
 const stageLabels = {
   idea: "思路 / Idea",
@@ -17,6 +22,9 @@ const els = {
   aboutScreen: document.querySelector("#aboutScreen"),
   entryMeta: document.querySelector("#entryMeta"),
   datasetMeta: document.querySelector("#datasetMeta"),
+  userStatus: document.querySelector("#userStatus"),
+  topUserStatus: document.querySelector("#topUserStatus"),
+  logoutButton: document.querySelector("#logoutButton"),
   startPractice: document.querySelector("#startPractice"),
   reviewMode: document.querySelector("#reviewMode"),
   aboutMode: document.querySelector("#aboutMode"),
@@ -74,7 +82,105 @@ const state = {
   mode: "entry",
   progress: loadJson(STORAGE_KEY, {}),
   marks: loadJson(MARKS_KEY, {}),
+  supabase: null,
+  user: null,
+  profile: null,
 };
+
+function cloudClient() {
+  if (state.supabase) return state.supabase;
+  if (!window.supabase?.createClient) return null;
+  state.supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+    auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true },
+  });
+  return state.supabase;
+}
+
+async function loadProfile(user) {
+  const client = cloudClient();
+  if (!client || !user) return null;
+  try {
+    const { data, error } = await client
+      .from("profiles")
+      .select("id,email,display_name,role")
+      .eq("id", user.id)
+      .maybeSingle();
+    if (error) throw error;
+    return data || { id: user.id, email: user.email, role: "student" };
+  } catch (error) {
+    console.warn("Profile loading skipped:", error);
+    return { id: user.id, email: user.email, role: "student" };
+  }
+}
+
+function renderUserStatus() {
+  const label = state.user
+    ? `${state.profile?.display_name || state.user.email} · ${state.profile?.role || "student"}`
+    : "未登录 / Guest local records";
+  [els.userStatus, els.topUserStatus].forEach((node) => {
+    if (node) node.textContent = label;
+  });
+  els.logoutButton.classList.toggle("is-hidden", !state.user);
+}
+
+async function initAuth() {
+  try {
+    const client = cloudClient();
+    if (!client) {
+      renderUserStatus();
+      return;
+    }
+    const { data } = await client.auth.getSession();
+    state.user = data.session?.user || null;
+    state.profile = state.user ? await loadProfile(state.user) : null;
+    renderUserStatus();
+    client.auth.onAuthStateChange(async (_event, session) => {
+      state.user = session?.user || null;
+      state.profile = state.user ? await loadProfile(state.user) : null;
+      renderUserStatus();
+    });
+  } catch (error) {
+    console.warn("Cloud login unavailable:", error);
+    state.user = null;
+    state.profile = null;
+    renderUserStatus();
+  }
+}
+
+async function logout() {
+  const client = cloudClient();
+  if (client) await client.auth.signOut();
+  state.user = null;
+  state.profile = null;
+  renderUserStatus();
+}
+
+async function saveAttemptCloud(problem, progress) {
+  if (!state.user) return;
+  const client = cloudClient();
+  if (!client) return;
+  // TODO: If future NEC formats need extra fields, add NEC-specific columns or metadata.
+  await client.from("attempts").insert({
+    user_id: state.user.id,
+    problem_id: problem.id,
+    exam_id: problem.display_name || null,
+    year: null,
+    level: null,
+    form: null,
+    number: Number(problem.number) || null,
+    topic: problem.topic || null,
+    difficulty: problem.difficulty || null,
+    selected_answer: progress.choice,
+    correct_answer: problem.answer_choice || null,
+    is_correct: Boolean(progress.correct),
+    time_spent_seconds: null,
+    mode: "single",
+    contest_type: "NEC",
+    platform: "nec-practice-platform",
+    source_url: window.location.href,
+    submitted_at: progress.submittedAt || new Date().toISOString(),
+  });
+}
 
 function loadJson(key, fallback) {
   try {
@@ -232,6 +338,7 @@ function submitAnswer() {
     attempts: (previous.attempts || 0) + 1,
     everWrong: Boolean(previous.everWrong || !correct),
   };
+  saveAttemptCloud(problem, state.progress[problem.id]);
   state.revealed = true;
   saveProgress();
   render();
@@ -509,6 +616,7 @@ async function init() {
   initFilters();
   updateMeta();
   showEntry();
+  initAuth();
 }
 
 els.startPractice.addEventListener("click", showPractice);
@@ -538,6 +646,7 @@ els.favoriteProblem.addEventListener("click", toggleFavorite);
 els.clearAnswer.addEventListener("click", clearAnswer);
 els.prevProblem.addEventListener("click", () => move(-1));
 els.nextProblem.addEventListener("click", () => move(1));
+els.logoutButton.addEventListener("click", logout);
 els.solutionStageControl.querySelectorAll(".solution-stage-button").forEach((button) => {
   button.addEventListener("click", () => {
     state.solutionStage = button.dataset.stage || "idea";

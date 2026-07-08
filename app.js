@@ -99,12 +99,18 @@ function cloudClient() {
 async function loadProfile(user) {
   const client = cloudClient();
   if (!client || !user) return null;
-  const { data } = await client
-    .from("profiles")
-    .select("id,email,display_name,role")
-    .eq("id", user.id)
-    .maybeSingle();
-  return data || { id: user.id, email: user.email, role: "student" };
+  try {
+    const { data, error } = await client
+      .from("profiles")
+      .select("id,email,display_name,role")
+      .eq("id", user.id)
+      .maybeSingle();
+    if (error) throw error;
+    return data || { id: user.id, email: user.email, role: "student" };
+  } catch (error) {
+    console.warn("Profile loading skipped:", error);
+    return { id: user.id, email: user.email, role: "student" };
+  }
 }
 
 function renderUserStatus() {
@@ -118,20 +124,27 @@ function renderUserStatus() {
 }
 
 async function initAuth() {
-  const client = cloudClient();
-  if (!client) {
-    renderUserStatus();
-    return;
-  }
-  const { data } = await client.auth.getSession();
-  state.user = data.session?.user || null;
-  state.profile = state.user ? await loadProfile(state.user) : null;
-  renderUserStatus();
-  client.auth.onAuthStateChange(async (_event, session) => {
-    state.user = session?.user || null;
+  try {
+    const client = cloudClient();
+    if (!client) {
+      renderUserStatus();
+      return;
+    }
+    const { data } = await client.auth.getSession();
+    state.user = data.session?.user || null;
     state.profile = state.user ? await loadProfile(state.user) : null;
     renderUserStatus();
-  });
+    client.auth.onAuthStateChange(async (_event, session) => {
+      state.user = session?.user || null;
+      state.profile = state.user ? await loadProfile(state.user) : null;
+      renderUserStatus();
+    });
+  } catch (error) {
+    console.warn("Cloud login unavailable:", error);
+    state.user = null;
+    state.profile = null;
+    renderUserStatus();
+  }
 }
 
 async function logout() {
@@ -602,8 +615,8 @@ async function init() {
   state.filtered = state.problems.slice();
   initFilters();
   updateMeta();
-  await initAuth();
   showEntry();
+  initAuth();
 }
 
 els.startPractice.addEventListener("click", showPractice);

@@ -3,7 +3,7 @@
   "title": "NEC Practice",
   "problems": [
     {
-      "id": "nec-01-01",
+      "id": "nec-01-d2-01",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "id": "nec-01-02",
+      "id": "nec-01-d2-02",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -69,7 +69,7 @@
       }
     },
     {
-      "id": "nec-01-03",
+      "id": "nec-01-d2-03",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "nec-01-04",
+      "id": "nec-01-d2-04",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -111,7 +111,7 @@
       "difficulty_level": 2,
       "number": 4,
       "display_name": "NEC Economic Principles",
-      "statement": "",
+      "statement": "A likely effect of government policies that redistribute income and wealth from the wealthy to the poor is that those policies",
       "choices": {
         "A": "enhance equality.",
         "B": "enhance efficiency.",
@@ -135,7 +135,7 @@
       }
     },
     {
-      "id": "nec-01-05",
+      "id": "nec-01-d2-05",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -168,7 +168,7 @@
       }
     },
     {
-      "id": "nec-01-06",
+      "id": "nec-01-d2-06",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -201,7 +201,7 @@
       }
     },
     {
-      "id": "nec-01-07",
+      "id": "nec-01-d2-07",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -234,7 +234,7 @@
       }
     },
     {
-      "id": "nec-01-08",
+      "id": "nec-01-d3-08",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -267,7 +267,7 @@
       }
     },
     {
-      "id": "nec-01-09",
+      "id": "nec-01-d3-09",
       "type": "NEC",
       "topic_order": 1,
       "topic": "Economic Principles",
@@ -300,7 +300,7 @@
       }
     },
     {
-      "id": "nec-02-01",
+      "id": "nec-02-d1-01",
       "type": "NEC",
       "topic_order": 2,
       "topic": "Demand & Supply",
@@ -333,7 +333,7 @@
       }
     },
     {
-      "id": "nec-02-02",
+      "id": "nec-02-d2-02",
       "type": "NEC",
       "topic_order": 2,
       "topic": "Demand & Supply",
@@ -366,7 +366,7 @@
       }
     },
     {
-      "id": "nec-02-03",
+      "id": "nec-02-d2-03",
       "type": "NEC",
       "topic_order": 2,
       "topic": "Demand & Supply",
@@ -399,7 +399,7 @@
       }
     },
     {
-      "id": "nec-02-04",
+      "id": "nec-02-d3-04",
       "type": "NEC",
       "topic_order": 2,
       "topic": "Demand & Supply",
@@ -408,12 +408,12 @@
       "difficulty_level": 3,
       "number": 4,
       "display_name": "NEC Demand & Supply",
-      "statement": "Let P* and Q* represent market clearing price and quantity, respectively. Given the supply and demand curves drawn in Figure 3-1, the appearance of foreign suppliers willing to sell any quantity at a price slightly higher than equilibrium can be expected to cause: Figure 3-1 S u p p ly P *",
+      "statement": "Let P* and Q* represent market clearing price and quantity, respectively. Given the supply and demand curves drawn in Figure 3-1, the appearance of foreign suppliers willing to sell any quantity at a price slightly higher than equilibrium can be expected to cause: Figure 3-1 S u p p ly P * D e m a n d Q * Qfo ecirP Q u a n tity o f Q",
       "choices": {
-        "D": "none of the above.",
         "A": "P* and Q* to climb.",
         "B": "P* and Q* to fall.",
-        "C": "P* to climb while Q* falls."
+        "C": "P* to climb while Q* falls.",
+        "D": "none of the above."
       },
       "answer_choice": "D",
       "answer_choices_accepted": [
@@ -432,7 +432,7 @@
       }
     },
     {
-      "id": "nec-03-01",
+      "id": "nec-03-d1-01",
       "type": "NEC",
       "topic_order": 3,
       "topic": "Market Equilibrium",
@@ -441,7 +441,7 @@
       "difficulty_level": 1,
       "number": 1,
       "display_name": "NEC Market Equilibrium",
-      "statement": "",
+      "statement": "A decrease in raw material prices will change the equilibrium price and quantity in a market in which of the following ways? Price Quantity",
       "choices": {
         "A": "Increase Increase",
         "B": "Increase Decrease",
@@ -465,7 +465,7 @@
       }
     },
     {
-      "id": "nec-03-02",
+      "id": "nec-03-d1-02",
       "type": "NEC",
       "topic_order": 3,
       "topic": "Market Equilibrium",
@@ -498,7 +498,7 @@
       }
     },
     {
-      "id": "nec-03-03",
+      "id": "nec-03-d2-03",
       "type": "NEC",
       "topic_order": 3,
       "topic": "Market Equilibrium",
@@ -507,9 +507,8 @@
       "difficulty_level": 2,
       "number": 3,
       "display_name": "NEC Market Equilibrium",
-      "statement": "Which of the following is most likely to occur when a competitive market adjusts from one equilibrium to another?",
+      "statement": "Which of the following is most likely to occur when a competitive market adjusts from one equilibrium to another? A decrease in demand will cause the equilibrium price, equilibrium quantity,and total surplus to increase.",
       "choices": {
-        "A": "decrease in demand will cause the equilibrium price, equilibrium quantity,and total surplus to increase.",
         "B": "An increase in demand will cause the equilibrium price, equilibrium quantity,and producer surplus to increase.",
         "C": "A decrease in supply will cause the equilibrium price to decrease, theequilibrium quantity to increase, and consumer surplus to decrease.",
         "D": "An increase in supply will cause the equilibrium price to increase, theequilibrium quantity to decrease, and consumer surplus to increase."
@@ -531,7 +530,7 @@
       }
     },
     {
-      "id": "nec-03-04",
+      "id": "nec-03-d2-04",
       "type": "NEC",
       "topic_order": 3,
       "topic": "Market Equilibrium",
@@ -564,7 +563,7 @@
       }
     },
     {
-      "id": "nec-03-05",
+      "id": "nec-03-d2-05",
       "type": "NEC",
       "topic_order": 3,
       "topic": "Market Equilibrium",
@@ -573,18 +572,13 @@
       "difficulty_level": 2,
       "number": 5,
       "display_name": "NEC Market Equilibrium",
-      "statement": "Leather and beef are jointly produced such that an increase in the production of one results in an equal increase in the production of the other.An increase in the demand for leather will most likely cause",
-      "choices": {
-        "A": "a decrease in the price of leather",
-        "B": "a decrease in the price of beef",
-        "C": "a decrease in the equilibrium quantity of beef sold",
-        "D": "an increase in the demand for beef in the short run"
-      },
+      "statement": "Leather and beef are jointly produced such that an increase in the production of one results in an equal increase in the production of the other.An increase in the demand for leather will most likely cause A a decrease in the price of leather B a decrease in the price of beef C a decrease in the equilibrium quantity of beef sold D an increase in the demand for beef in the short run",
+      "choices": {},
       "answer_choice": "B",
       "answer_choices_accepted": [
         "B"
       ],
-      "answer_value": "a decrease in the price of beef",
+      "answer_value": "",
       "solution_text": "Answer A\nIncorrect, An increase in demand for leather would lead to an increase in its price, not a\ndecrease. So, this option is incorrect.\nAnswer B\nCorrect,An increase in demand for leather, which is jointly produced with beef, would lead to\nan increase in leather supply and thus an increase in beef production. However, if beef supply\nincreases while demand remains constant, it could indeed lead to a decrease in the price of\nbeef.\nAnswer C\nIncorrect, Since leather and beef are jointly produced, an increase in the demand for leather\nwould lead to an increase in the quantity of beef produced, not a decrease. This option is also\nincorrect.\nAnswer D\nD: An increase in demand for leather might lead to an increase in beef production due to the\njoint production relationship. However, this does not necessarily mean there will be an\nincrease in the demand for beef in the short run; it may just maintain the existing demand. So,\nthis option is not definitively correct.",
       "solution_stages": {
         "idea": "Answer A Incorrect, An increase in demand for leather would lead to an increase in its price, not a decrease. So, this option is incorrect.",
@@ -597,7 +591,7 @@
       }
     },
     {
-      "id": "nec-03-06",
+      "id": "nec-03-d2-06",
       "type": "NEC",
       "topic_order": 3,
       "topic": "Market Equilibrium",
@@ -606,18 +600,13 @@
       "difficulty_level": 2,
       "number": 6,
       "display_name": "NEC Market Equilibrium",
-      "statement": "Assume the market for a good is in equilibrium.An increase in the market supply of the good will result in",
-      "choices": {
-        "A": "a shortage at the original price of the good, which causes the market price to decrease",
-        "B": "a shortage at the original price of the good, which causes the market price to increase",
-        "C": "a surplus at the original price of the good, which causes the market price to decrease",
-        "D": "a surplus at the original price of the good, which causes the market price to increase"
-      },
+      "statement": "Assume the market for a good is in equilibrium.An increase in the market supply of the good will result in A a shortage at the original price of the good, which causes the market price to decrease B a shortage at the original price of the good, which causes the market price to increase C a surplus at the original price of the good, which causes the market price to decrease D a surplus at the original price of the good, which causes the market price to increase",
+      "choices": {},
       "answer_choice": "A",
       "answer_choices_accepted": [
         "A"
       ],
-      "answer_value": "a shortage at the original price of the good, which causes the market price to decrease",
+      "answer_value": "",
       "solution_text": "Incorrect.An increase in supply will create a surplus (not a shortage) at the original\nprice,which causes the market price to decrease.\nAnswer B\nlncorrect. An increase in supply will create a surplus (not a shortage) at the original price,\nwhichcauses the market price to decrease (not increase).\nAnswer c\nCorrect. An increase in supply will create a surplus at the original price, because quantity\nsupplied will exceed quantity demanded at the original price, resulting in a downward\npressure on prices,which causes the market price to decrease.\nAnswer D\nIncorrect. An increase in supply will create a surplus at the original price,which causes the\nmarket price to decrease (not increase).",
       "solution_stages": {
         "idea": "Incorrect.An increase in supply will create a surplus (not a shortage) at the original price,which causes the market price to decrease. Answer B lncorrect.",
@@ -630,7 +619,7 @@
       }
     },
     {
-      "id": "nec-03-07",
+      "id": "nec-03-d3-07",
       "type": "NEC",
       "topic_order": 3,
       "topic": "Market Equilibrium",
@@ -639,7 +628,7 @@
       "difficulty_level": 3,
       "number": 7,
       "display_name": "NEC Market Equilibrium",
-      "statement": "In the market for a good the quantity supplied (QS) and the quantity demanded (QD) are given by QS = P–30 and QD = 240–2P where P = price in dollars.",
+      "statement": "In the market for a good the quantity supplied (QS) and the quantity demanded (QD) are given by QS = P–30 and QD = 240–2P where P = price in dollars. A change in the tax on the good makes QS = P–36. How will the change affect equilibrium price?",
       "choices": {
         "A": "It will fall by $2.",
         "B": "It will fall by $6.",
@@ -663,7 +652,7 @@
       }
     },
     {
-      "id": "nec-04-01",
+      "id": "nec-04-d1-01",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -696,7 +685,7 @@
       }
     },
     {
-      "id": "nec-04-02",
+      "id": "nec-04-d1-02",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -729,7 +718,7 @@
       }
     },
     {
-      "id": "nec-04-03",
+      "id": "nec-04-d1-03",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -738,7 +727,7 @@
       "difficulty_level": 1,
       "number": 3,
       "display_name": "NEC Elasticity and its application",
-      "statement": "",
+      "statement": "A firm observes that after increasing the price of a product by 10%, the quantity demanded falls by 5%. What can the firm conclude about the product’s price elasticity of demand?",
       "choices": {
         "A": "The product is elastic, as demand changes significantly with price.",
         "B": "The product is inelastic, as demand is relatively insensitive to price changes.",
@@ -762,7 +751,7 @@
       }
     },
     {
-      "id": "nec-04-04",
+      "id": "nec-04-d2-04",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -795,7 +784,7 @@
       }
     },
     {
-      "id": "nec-04-05",
+      "id": "nec-04-d2-05",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -828,7 +817,7 @@
       }
     },
     {
-      "id": "nec-04-06",
+      "id": "nec-04-d2-06",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -861,7 +850,7 @@
       }
     },
     {
-      "id": "nec-04-07",
+      "id": "nec-04-d2-07",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -894,7 +883,7 @@
       }
     },
     {
-      "id": "nec-04-08",
+      "id": "nec-04-d2-08",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -927,7 +916,7 @@
       }
     },
     {
-      "id": "nec-04-09",
+      "id": "nec-04-d2-09",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -960,7 +949,7 @@
       }
     },
     {
-      "id": "nec-04-10",
+      "id": "nec-04-d2-10",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -993,7 +982,7 @@
       }
     },
     {
-      "id": "nec-04-11",
+      "id": "nec-04-d2-11",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -1026,7 +1015,7 @@
       }
     },
     {
-      "id": "nec-04-12",
+      "id": "nec-04-d2-12",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -1059,7 +1048,7 @@
       }
     },
     {
-      "id": "nec-04-13",
+      "id": "nec-04-d2-13",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -1092,7 +1081,7 @@
       }
     },
     {
-      "id": "nec-04-14",
+      "id": "nec-04-d3-14",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -1125,7 +1114,7 @@
       }
     },
     {
-      "id": "nec-04-15",
+      "id": "nec-04-d3-15",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -1158,7 +1147,7 @@
       }
     },
     {
-      "id": "nec-04-16",
+      "id": "nec-04-d3-16",
       "type": "NEC",
       "topic_order": 4,
       "topic": "Elasticity and its application",
@@ -1192,7 +1181,7 @@
       }
     },
     {
-      "id": "nec-05-01",
+      "id": "nec-05-d1-01",
       "type": "NEC",
       "topic_order": 5,
       "topic": "Cost of Production",
@@ -1201,18 +1190,13 @@
       "difficulty_level": 1,
       "number": 1,
       "display_name": "NEC Cost of Production",
-      "statement": "Specialization and lower costs of inputs will often result in",
-      "choices": {
-        "A": "a decrease in economic profits",
-        "B": "economies of scale",
-        "C": "constant returns to scale",
-        "D": "diseconomies of scale"
-      },
+      "statement": "Specialization and lower costs of inputs will often result in (A)a decrease in economic profits (B)economies of scale (C)constant returns to scale (D)diseconomies of scale",
+      "choices": {},
       "answer_choice": "B",
       "answer_choices_accepted": [
         "B"
       ],
-      "answer_value": "economies of scale",
+      "answer_value": "",
       "solution_text": "Specialization and lower costs of inputs typically lead to economies of scale, which occur\nwhen increasing production results in lower average costs per unit. This happens because\nspecialized labor and cheaper inputs allow firms to produce more efficiently, spreading fixed\ncosts over a larger number of units.",
       "solution_stages": {
         "idea": "Specialization and lower costs of inputs typically lead to economies of scale, which occur when increasing production results in lower average costs per unit. This happens because specialized labor and cheaper inputs allow firms to produce more efficiently, spreading fixed costs over a larger number of units.",
@@ -1225,7 +1209,7 @@
       }
     },
     {
-      "id": "nec-05-02",
+      "id": "nec-05-d1-02",
       "type": "NEC",
       "topic_order": 5,
       "topic": "Cost of Production",
@@ -1234,18 +1218,13 @@
       "difficulty_level": 1,
       "number": 2,
       "display_name": "NEC Cost of Production",
-      "statement": "As a result of increased growth,a firm may experience difficulty in managing larger plants and may lose efficiency.This is known as",
-      "choices": {
-        "A": "constant returns to scale",
-        "B": "law of diminishing marginal returns",
-        "C": "diseconomies of scale",
-        "D": "economies of scale"
-      },
+      "statement": "As a result of increased growth,a firm may experience difficulty in managing larger plants and may lose efficiency.This is known as (A)constant returns to scale (B)law of diminishing marginal returns (C)diseconomies of scale (D)economies of scale",
+      "choices": {},
       "answer_choice": "C",
       "answer_choices_accepted": [
         "C"
       ],
-      "answer_value": "diseconomies of scale",
+      "answer_value": "",
       "solution_text": "Diseconomies of scale occur when a firm grows too large and experiences inefficiencies, such\nas difficulties in managing larger operations or increased complexity, which result in higher\naverage costs.",
       "solution_stages": {
         "idea": "Diseconomies of scale occur when a firm grows too large and experiences inefficiencies, such as difficulties in managing larger operations or increased complexity, which result in higher average costs.",
@@ -1258,7 +1237,7 @@
       }
     },
     {
-      "id": "nec-05-03",
+      "id": "nec-05-d2-03",
       "type": "NEC",
       "topic_order": 5,
       "topic": "Cost of Production",
@@ -1267,18 +1246,13 @@
       "difficulty_level": 2,
       "number": 3,
       "display_name": "NEC Cost of Production",
-      "statement": "If the price of a variable resource increases,the result would be",
-      "choices": {
-        "A": "a downward shift of MC",
-        "B": "an upward shift in AFC",
-        "C": "an upward shift in MC",
-        "D": "a downward shift in ATC"
-      },
+      "statement": "If the price of a variable resource increases,the result would be (A)a downward shift of MC (B)an upward shift in AFC (C)an upward shift in MC (D)a downward shift in ATC",
+      "choices": {},
       "answer_choice": "C",
       "answer_choices_accepted": [
         "C"
       ],
-      "answer_value": "an upward shift in MC",
+      "answer_value": "",
       "solution_text": " Marginal Cost (MC): The additional cost of producing one more unit of output. An\nincrease in variable costs directly affects MC, causing it to shift upward.\n Average Fixed Cost (AFC): Not affected by changes in variable resource prices, as it only\ninvolves fixed costs.\n Average Total Cost (ATC): Will also rise as the increase in variable costs affects overall\ncosts, but it's not necessarily a downward shift.",
       "solution_stages": {
         "idea": " Marginal Cost (MC): The additional cost of producing one more unit of output. An increase in variable costs directly affects MC, causing it to shift upward.",
@@ -1291,7 +1265,7 @@
       }
     },
     {
-      "id": "nec-05-04",
+      "id": "nec-05-d2-04",
       "type": "NEC",
       "topic_order": 5,
       "topic": "Cost of Production",
@@ -1300,18 +1274,13 @@
       "difficulty_level": 2,
       "number": 4,
       "display_name": "NEC Cost of Production",
-      "statement": "The key difference between the short run and the long run is that the short run",
-      "choices": {
-        "A": "cannot change the size of the plant",
-        "B": "is enough time to change the size of the plant",
-        "C": "is enough time to change the amount of capital",
-        "D": "is not enough time to change the amount of raw materials"
-      },
+      "statement": "The key difference between the short run and the long run is that the short run (A)cannot change the size of the plant (B)is enough time to change the size of the plant (C)is enough time to change the amount of capital (D)is not enough time to change the amount of raw materials",
+      "choices": {},
       "answer_choice": "A",
       "answer_choices_accepted": [
         "A"
       ],
-      "answer_value": "cannot change the size of the plant",
+      "answer_value": "",
       "solution_text": "In the short run, at least one input is fixed (typically the size of the plant or capital). Firms can\nadjust some inputs like labor or raw materials but cannot change fixed inputs like the size of\nthe plant or machinery; In the long run, all inputs are variable, meaning the firm can adjust\nthe size of the plant, capital, and all other resources.",
       "solution_stages": {
         "idea": "In the short run, at least one input is fixed (typically the size of the plant or capital). Firms can adjust some inputs like labor or raw materials but cannot change fixed inputs like the size of the plant or machinery; In the long run, all inputs are variable, meaning the firm can adjust the size of the plant, capital, and all other resources.",
@@ -1324,7 +1293,7 @@
       }
     },
     {
-      "id": "nec-05-05",
+      "id": "nec-05-d2-05",
       "type": "NEC",
       "topic_order": 5,
       "topic": "Cost of Production",
@@ -1333,18 +1302,13 @@
       "difficulty_level": 2,
       "number": 5,
       "display_name": "NEC Cost of Production",
-      "statement": "The preceding graph shows",
-      "choices": {
-        "A": "a total cost curve",
-        "B": "a total revenue curve",
-        "C": "no increasing returns in the early stage of production",
-        "D": "a fixed variable cost curve"
-      },
+      "statement": "The preceding graph shows (A)a total cost curve (B)a total revenue curve (C)no increasing returns in the early stage of production (D)a fixed variable cost curve",
+      "choices": {},
       "answer_choice": "A",
       "answer_choices_accepted": [
         "A"
       ],
-      "answer_value": "a total cost curve",
+      "answer_value": "",
       "solution_text": "The total cost curve graphically represents the relationship between the quantity of output\nproduced and the total cost incurred by a firm to produce that output. At first, the curve\nincreases at a decreasing rate (concave), reflecting increasing marginal returns due to\nefficiencies such as specialization. Eventually, it begins to increase at an increasing rate\n(convex), reflecting diminishing marginal returns—as more inputs are added, each additional\ninput contributes less to total output, increasing costs at a faster rate.",
       "solution_stages": {
         "idea": "The total cost curve graphically represents the relationship between the quantity of output produced and the total cost incurred by a firm to produce that output. At first, the curve increases at a decreasing rate (concave), reflecting increasing marginal returns due to efficiencies such as specialization.",
@@ -1357,7 +1321,7 @@
       }
     },
     {
-      "id": "nec-05-06",
+      "id": "nec-05-d2-06",
       "type": "NEC",
       "topic_order": 5,
       "topic": "Cost of Production",
@@ -1390,7 +1354,7 @@
       }
     },
     {
-      "id": "nec-05-07",
+      "id": "nec-05-d2-07",
       "type": "NEC",
       "topic_order": 5,
       "topic": "Cost of Production",
@@ -1399,18 +1363,13 @@
       "difficulty_level": 2,
       "number": 7,
       "display_name": "NEC Cost of Production",
-      "statement": "In economics, the cost of something is",
-      "choices": {
-        "A": "the dollar amount of obtaining it.",
-        "B": "always measured in units of time given up to get it.",
-        "C": "what you give up to get it.",
-        "D": "often impossible to quantify, even in principle."
-      },
+      "statement": "In economics, the cost of something is (A)the dollar amount of obtaining it. (B)always measured in units of time given up to get it. (C)what you give up to get it. (D)often impossible to quantify, even in principle.",
+      "choices": {},
       "answer_choice": "C",
       "answer_choices_accepted": [
         "C"
       ],
-      "answer_value": "what you give up to get it.",
+      "answer_value": "",
       "solution_text": "In Economics, the real cost includes an opportunity cost, that is whatever a person gives up\nafter making decision to get other things, rather than nominal term or monetary value of a\ngood or service, or other resources used.",
       "solution_stages": {
         "idea": "In Economics, the real cost includes an opportunity cost, that is whatever a person gives up after making decision to get other things, rather than nominal term or monetary value of a good or service, or other resources used.",
@@ -1423,7 +1382,7 @@
       }
     },
     {
-      "id": "nec-05-08",
+      "id": "nec-05-d3-08",
       "type": "NEC",
       "topic_order": 5,
       "topic": "Cost of Production",
@@ -1456,7 +1415,7 @@
       }
     },
     {
-      "id": "nec-06-01",
+      "id": "nec-06-d1-01",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1489,7 +1448,7 @@
       }
     },
     {
-      "id": "nec-06-02",
+      "id": "nec-06-d1-02",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1498,18 +1457,13 @@
       "difficulty_level": 1,
       "number": 2,
       "display_name": "NEC Competitive Market",
-      "statement": "Which combination is usually found in competitive market? Barriers to entry Number of buyers and sellers Size of each firm",
-      "choices": {
-        "A": "high many small",
-        "B": "low few large",
-        "C": "high few large",
-        "D": "low many small"
-      },
+      "statement": "Which combination is usually found in competitive market? Barriers to entry Number of buyers and sellers Size of each firm A high many small B low few large C high few large D low many small",
+      "choices": {},
       "answer_choice": "D",
       "answer_choices_accepted": [
         "D"
       ],
-      "answer_value": "low many small",
+      "answer_value": "",
       "solution_text": "A. Wrong. There should be low barriers.\nB. Wrong. There should be many buyers and sellers, and each firm is with small size.\nC. Wrong. There should be low barriers, therefore many firms with small size in the market.\nD. Correct. Low barriers, many buyers and sellers, small size of firm all are characteristics of\ncompetitive market.",
       "solution_stages": {
         "idea": "A. Wrong.",
@@ -1522,7 +1476,7 @@
       }
     },
     {
-      "id": "nec-06-03",
+      "id": "nec-06-d1-03",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1555,7 +1509,7 @@
       }
     },
     {
-      "id": "nec-06-04",
+      "id": "nec-06-d1-04",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1588,7 +1542,7 @@
       }
     },
     {
-      "id": "nec-06-05",
+      "id": "nec-06-d2-05",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1621,7 +1575,7 @@
       }
     },
     {
-      "id": "nec-06-06",
+      "id": "nec-06-d2-06",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1654,7 +1608,7 @@
       }
     },
     {
-      "id": "nec-06-07",
+      "id": "nec-06-d2-07",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1663,18 +1617,13 @@
       "difficulty_level": 2,
       "number": 7,
       "display_name": "NEC Competitive Market",
-      "statement": "What will happen to the competitive firm if it is currently producing at a level of output where its marginal cost is above average cost? Effect on output Effect on price",
-      "choices": {
-        "A": "decrease decrease",
-        "B": "decrease increase",
-        "C": "increase decrease",
-        "D": "increase increase"
-      },
+      "statement": "What will happen to the competitive firm if it is currently producing at a level of output where its marginal cost is above average cost? Effect on output Effect on price A decrease decrease B decrease increase C increase decrease D increase increase",
+      "choices": {},
       "answer_choice": "A",
       "answer_choices_accepted": [
         "A"
       ],
-      "answer_value": "decrease decrease",
+      "answer_value": "",
       "solution_text": "A. Correct. As the firm is making abnormal profit now, the market price will fall because of\nthe entry of new firms to the industry. Fall in price will result in a decrease in output.\nB. Wrong. Abnormal profit earned by current firms will attract more new firms into the\nindustry, which increase the industry’s supply and decrease the market price.\nC. Wrong. More new firms enter the industry and thus lower the price. Fall in price will\nresult in a decrease in output for current firms.\nD. Wrong. Abnormal profit earned by current firms will attract more new firms into the\nindustry, which increase the industry’s supply and decrease the market price. And Fall in\nprice will result in a decrease in output for current firms.",
       "solution_stages": {
         "idea": "A. Correct.",
@@ -1687,7 +1636,7 @@
       }
     },
     {
-      "id": "nec-06-08",
+      "id": "nec-06-d2-08",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1720,7 +1669,7 @@
       }
     },
     {
-      "id": "nec-06-09",
+      "id": "nec-06-d2-09",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1753,7 +1702,7 @@
       }
     },
     {
-      "id": "nec-06-10",
+      "id": "nec-06-d2-10",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1786,7 +1735,7 @@
       }
     },
     {
-      "id": "nec-06-11",
+      "id": "nec-06-d2-11",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1795,7 +1744,7 @@
       "difficulty_level": 2,
       "number": 11,
       "display_name": "NEC Competitive Market",
-      "statement": "",
+      "statement": "A perfectly competitive firm is producing at a level where its average total cost is $10, and the market price is $8. In the long run, this firm will:",
       "choices": {
         "A": "Exit the market because it is incurring losses.",
         "B": "Increase production to lower the average total cost.",
@@ -1819,7 +1768,7 @@
       }
     },
     {
-      "id": "nec-06-12",
+      "id": "nec-06-d2-12",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1852,7 +1801,7 @@
       }
     },
     {
-      "id": "nec-06-13",
+      "id": "nec-06-d2-13",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1885,7 +1834,7 @@
       }
     },
     {
-      "id": "nec-06-14",
+      "id": "nec-06-d2-14",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1918,7 +1867,7 @@
       }
     },
     {
-      "id": "nec-06-15",
+      "id": "nec-06-d2-15",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1951,7 +1900,7 @@
       }
     },
     {
-      "id": "nec-06-16",
+      "id": "nec-06-d2-16",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -1960,7 +1909,7 @@
       "difficulty_level": 2,
       "number": 16,
       "display_name": "NEC Competitive Market",
-      "statement": "",
+      "statement": "A profit-maximization competition company is currently in long-run equilibrium. It is earning $30,000 of total revenue from a sale of 1,000 units. Its total fixed cost of production is $3,000. Which is the following can be correctly be inferred from the information provided.",
       "choices": {
         "A": "Marginal cost is $30 and average variable cost is $27",
         "B": "Marginal cost is $30 and average variable cost is $30",
@@ -1984,7 +1933,7 @@
       }
     },
     {
-      "id": "nec-06-17",
+      "id": "nec-06-d2-17",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -2017,7 +1966,7 @@
       }
     },
     {
-      "id": "nec-06-18",
+      "id": "nec-06-d2-18",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -2050,7 +1999,7 @@
       }
     },
     {
-      "id": "nec-06-19",
+      "id": "nec-06-d2-19",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -2083,7 +2032,7 @@
       }
     },
     {
-      "id": "nec-06-01",
+      "id": "nec-06-d3-01",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -2116,7 +2065,7 @@
       }
     },
     {
-      "id": "nec-06-02",
+      "id": "nec-06-d3-02",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -2149,7 +2098,7 @@
       }
     },
     {
-      "id": "nec-06-03",
+      "id": "nec-06-d3-03",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -2158,7 +2107,7 @@
       "difficulty_level": 3,
       "number": 3,
       "display_name": "NEC Competitive Market",
-      "statement": "",
+      "statement": "A perfectly competitive firm is producing at a level where marginal cost (MC) equals marginal revenue (MR) and is earning normal profit. Which of the following is true in the long run?",
       "choices": {
         "A": "The firm will experience positive economic profit and attract new firms into the market.",
         "B": "The firm will experience losses and will eventually exit the market.",
@@ -2182,7 +2131,7 @@
       }
     },
     {
-      "id": "nec-06-04",
+      "id": "nec-06-d3-04",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -2215,7 +2164,7 @@
       }
     },
     {
-      "id": "nec-06-05",
+      "id": "nec-06-d3-05",
       "type": "NEC",
       "topic_order": 6,
       "topic": "Competitive Market",
@@ -2248,7 +2197,7 @@
       }
     },
     {
-      "id": "nec-07-01",
+      "id": "nec-07-d1-01",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2281,7 +2230,7 @@
       }
     },
     {
-      "id": "nec-07-02",
+      "id": "nec-07-d1-02",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2314,7 +2263,7 @@
       }
     },
     {
-      "id": "nec-07-03",
+      "id": "nec-07-d1-03",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2347,7 +2296,7 @@
       }
     },
     {
-      "id": "nec-07-04",
+      "id": "nec-07-d1-04",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2380,7 +2329,7 @@
       }
     },
     {
-      "id": "nec-07-05",
+      "id": "nec-07-d2-05",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2413,7 +2362,7 @@
       }
     },
     {
-      "id": "nec-07-06",
+      "id": "nec-07-d2-06",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2446,7 +2395,7 @@
       }
     },
     {
-      "id": "nec-07-07",
+      "id": "nec-07-d2-07",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2479,7 +2428,7 @@
       }
     },
     {
-      "id": "nec-07-08",
+      "id": "nec-07-d2-08",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2512,7 +2461,7 @@
       }
     },
     {
-      "id": "nec-07-09",
+      "id": "nec-07-d2-09",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2545,7 +2494,7 @@
       }
     },
     {
-      "id": "nec-07-10",
+      "id": "nec-07-d2-10",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2578,7 +2527,7 @@
       }
     },
     {
-      "id": "nec-07-11",
+      "id": "nec-07-d3-11",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2611,7 +2560,7 @@
       }
     },
     {
-      "id": "nec-07-12",
+      "id": "nec-07-d3-12",
       "type": "NEC",
       "topic_order": 7,
       "topic": "GDP and economic growth",
@@ -2644,7 +2593,7 @@
       }
     },
     {
-      "id": "nec-08-01",
+      "id": "nec-08-d1-01",
       "type": "NEC",
       "topic_order": 8,
       "topic": "CPI and Inflation",
@@ -2677,7 +2626,7 @@
       }
     },
     {
-      "id": "nec-08-02",
+      "id": "nec-08-d1-02",
       "type": "NEC",
       "topic_order": 8,
       "topic": "CPI and Inflation",
@@ -2710,7 +2659,7 @@
       }
     },
     {
-      "id": "nec-08-03",
+      "id": "nec-08-d2-03",
       "type": "NEC",
       "topic_order": 8,
       "topic": "CPI and Inflation",
@@ -2743,7 +2692,7 @@
       }
     },
     {
-      "id": "nec-08-04",
+      "id": "nec-08-d2-04",
       "type": "NEC",
       "topic_order": 8,
       "topic": "CPI and Inflation",
@@ -2776,7 +2725,7 @@
       }
     },
     {
-      "id": "nec-09-01",
+      "id": "nec-09-d1-01",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -2809,7 +2758,7 @@
       }
     },
     {
-      "id": "nec-09-02",
+      "id": "nec-09-d1-02",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -2842,7 +2791,7 @@
       }
     },
     {
-      "id": "nec-09-03",
+      "id": "nec-09-d1-03",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -2875,7 +2824,7 @@
       }
     },
     {
-      "id": "nec-09-04",
+      "id": "nec-09-d1-04",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -2908,7 +2857,7 @@
       }
     },
     {
-      "id": "nec-09-05",
+      "id": "nec-09-d1-05",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -2941,7 +2890,7 @@
       }
     },
     {
-      "id": "nec-09-06",
+      "id": "nec-09-d1-06",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -2974,7 +2923,7 @@
       }
     },
     {
-      "id": "nec-09-07",
+      "id": "nec-09-d1-07",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3007,7 +2956,7 @@
       }
     },
     {
-      "id": "nec-09-08",
+      "id": "nec-09-d1-08",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3040,7 +2989,7 @@
       }
     },
     {
-      "id": "nec-09-09",
+      "id": "nec-09-d1-09",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3073,7 +3022,7 @@
       }
     },
     {
-      "id": "nec-09-10",
+      "id": "nec-09-d1-10",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3106,7 +3055,7 @@
       }
     },
     {
-      "id": "nec-09-11",
+      "id": "nec-09-d1-11",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3139,7 +3088,7 @@
       }
     },
     {
-      "id": "nec-09-12",
+      "id": "nec-09-d1-12",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3172,7 +3121,7 @@
       }
     },
     {
-      "id": "nec-09-01",
+      "id": "nec-09-d2-01",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3205,7 +3154,7 @@
       }
     },
     {
-      "id": "nec-09-02",
+      "id": "nec-09-d2-02",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3238,7 +3187,7 @@
       }
     },
     {
-      "id": "nec-09-03",
+      "id": "nec-09-d2-03",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3271,7 +3220,7 @@
       }
     },
     {
-      "id": "nec-09-04",
+      "id": "nec-09-d2-04",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3304,7 +3253,7 @@
       }
     },
     {
-      "id": "nec-09-05",
+      "id": "nec-09-d2-05",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3337,7 +3286,7 @@
       }
     },
     {
-      "id": "nec-09-06",
+      "id": "nec-09-d2-06",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3370,7 +3319,7 @@
       }
     },
     {
-      "id": "nec-09-07",
+      "id": "nec-09-d2-07",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3403,7 +3352,7 @@
       }
     },
     {
-      "id": "nec-09-08",
+      "id": "nec-09-d2-08",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3436,7 +3385,7 @@
       }
     },
     {
-      "id": "nec-09-01",
+      "id": "nec-09-d3-01",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",
@@ -3469,7 +3418,7 @@
       }
     },
     {
-      "id": "nec-09-02",
+      "id": "nec-09-d3-02",
       "type": "NEC",
       "topic_order": 9,
       "topic": "Fiscal Policy & Monetary Policy",

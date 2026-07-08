@@ -242,6 +242,23 @@ a:hover {
   font-weight: 750;
 }
 
+.user-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  max-width: 100%;
+  min-height: 38px;
+  margin-top: 12px;
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--accent-strong);
+  font-size: 13px;
+  font-weight: 850;
+}
+
 .mode-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

@@ -497,8 +497,12 @@ function renderReview() {
 }
 
 async function init() {
-  const response = await fetch(DATA_URL);
-  state.data = await response.json();
+  if (window.NEC_QUESTION_BANK) {
+    state.data = window.NEC_QUESTION_BANK;
+  } else {
+    const response = await fetch(DATA_URL);
+    state.data = await response.json();
+  }
   state.problems = state.data.problems.slice().sort((a, b) => a.topic_order - b.topic_order || a.number - b.number);
   state.filtered = state.problems.slice();
   initFilters();
@@ -543,4 +547,8 @@ els.solutionStageControl.querySelectorAll(".solution-stage-button").forEach((but
 init().catch((error) => {
   els.entryMeta.textContent = "题库加载失败 / Problem bank failed to load";
   els.datasetMeta.textContent = error.message;
+  const hint = document.createElement("p");
+  hint.className = "empty";
+  hint.textContent = "请确认 nec_question_bank.js 与 index.html 在同一目录。 / Make sure nec_question_bank.js is in the same folder as index.html.";
+  els.entryScreen.querySelector(".entry-copy")?.appendChild(hint);
 });

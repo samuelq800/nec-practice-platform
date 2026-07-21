@@ -145,6 +145,7 @@ function renderUserStatus() {
   els.assignedPracticeCard.classList.toggle("is-hidden", state.profile?.role !== "econclubmembers");
   els.economyRecommendationCard.classList.toggle("is-hidden", !state.user);
   els.logoutButton.classList.toggle("is-hidden", !state.user);
+  if (window.renderCompetitionAdminAccess) window.renderCompetitionAdminAccess();
 }
 
 function requestedRecommendationIds() {
@@ -398,6 +399,7 @@ async function showAssignments() {
   els.reviewScreen.classList.add("is-hidden");
   els.aboutScreen.classList.add("is-hidden");
   els.assignmentScreen.classList.remove("is-hidden");
+  document.querySelector("#competitionAdminScreen")?.classList.add("is-hidden");
   renderAssignments("读取老师布置的题目中 / Loading assignments...");
   await loadAssignments();
 }
@@ -427,6 +429,7 @@ function showEntry() {
   els.practiceShell.classList.add("is-hidden");
   els.reviewScreen.classList.add("is-hidden");
   els.aboutScreen.classList.add("is-hidden");
+  document.querySelector("#competitionAdminScreen")?.classList.add("is-hidden");
 }
 
 function showPractice() {
@@ -439,6 +442,7 @@ function showPractice() {
   els.randomProblem.classList.remove("is-hidden");
   els.reviewScreen.classList.add("is-hidden");
   els.aboutScreen.classList.add("is-hidden");
+  document.querySelector("#competitionAdminScreen")?.classList.add("is-hidden");
   applyFilters(true);
 }
 
@@ -448,6 +452,7 @@ function showReview() {
   els.assignmentScreen.classList.add("is-hidden");
   els.reviewScreen.classList.remove("is-hidden");
   els.aboutScreen.classList.add("is-hidden");
+  document.querySelector("#competitionAdminScreen")?.classList.add("is-hidden");
   renderReview();
 }
 
@@ -457,6 +462,7 @@ function showAbout() {
   els.assignmentScreen.classList.add("is-hidden");
   els.reviewScreen.classList.add("is-hidden");
   els.aboutScreen.classList.remove("is-hidden");
+  document.querySelector("#competitionAdminScreen")?.classList.add("is-hidden");
 }
 
 function initFilters() {
